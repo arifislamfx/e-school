@@ -13,6 +13,13 @@ html,body {
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
+.header__text {
+    font-size: 16px;
+    font-family: Poppins;
+}
+.btn__main {
+    font-family: Roboto;
+}
 
 .page__header {
     margin-top: 5rem;
@@ -67,6 +74,9 @@ line-height: 70px;
 #service__section {
     padding-bottom: 85px;
 }
+#service__section p {
+    margin-left: 5px;
+}
 
 
 .middle__text {
@@ -106,18 +116,50 @@ border-radius: 10px;
     margin-top: -12px;
 }
 
+/* Start Testimonials */
+.t__text {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: Poppins;
+}
 
 
 #footer__section{
     background: #282531;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    margin-top: 80px;
+    font-family: Poppins;
 }
-
+.foo__text {
+    font-size: .9rem;
+    text-align: center;
+}
+.foo__para p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.course p {
+    line-height: 16px;
+}
 .useful__link ul{
     list-style: none;
 }
 .useful__link ul li a {
     text-decoration: none;
     color: #fff;
+}
+.useful__link {
+    text-align: center;
+}
+.course__list li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
 }

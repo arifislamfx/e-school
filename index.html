@@ -46,7 +46,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Blog</a>
           </li>
-          <button type="button" class="btn btn-success">Sing in</button>
+          <button type="button" class="btn btn-success btn__main">Sing in</button>
           </ul>
       </div>
     </div>
@@ -59,8 +59,8 @@
             <h6>Are you ready to Learn?</h6>
             <h1>Learn With fun <br>
               on <span class="span__text"> any schedule</span> </h1>
-              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
-              <button type="button" class="btn btn-success">Get Started</button>
+              <p class="text-muted header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
+              <button type="button" class="btn btn-success btn__main mt-4">Get Started</button>
           </div>
            </div>
           <div class="col-md-6">
@@ -132,10 +132,10 @@
           <div class="card-body">
             <h5 class="card-title">Modern Psychology</h5>
             <p class="card-text">Designation</p>
-            <button class="btn btn-success">Buy Course</button>
+            <button type="button" class="btn btn-success btn__main">Buy Course</button>
           </div>
-          <div class="card-footer justify-content-between  d-flex">
-            <div class="d-flex mt-3">
+          <div class="card-footer justify-content-between d-flex">
+            <div class="d-flex gy-4 mt-3">
               <img src="img/ICON/calendar.png" width="24" height="24" alt="calender">
               <p>Start 20  April, 2021</p>
             </div>
@@ -153,7 +153,7 @@
             <div class="card-body">
               <h5 class="card-title">Modern Psychology</h5>
               <p class="card-text">Designation</p>
-              <button type="button" class="btn btn-success">Buy Course</button>
+              <button type="button" class="btn btn-success btn__main">Buy Course</button>
             </div>
             <div class="card-footer justify-content-between  d-flex">
               <div class="d-flex mt-3">
@@ -173,7 +173,7 @@
             <div class="card-body">
               <h5 class="card-title">Modern Psychology</h5>
               <p class="caard-text">Designation</p>
-              <button type="button" class="btn btn-success">Buy Course</button>
+              <button type="button" class="btn btn-success btn__main">Buy Course</button>
             </div>
             <div class="card-footer justify-content-between d-flex">
               <div class="d-flex mt-3">
@@ -195,17 +195,19 @@
 
   <!-- Start Testimonial Section -->
     <section id="testimonial__section">
-      <h1 class="text-center">Testimonial</h1>
+      <h1 class="text-center pt-5 pb-5">Testimonial</h1>
       <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-          <img src="img/Photos/Man.png" width="120" height="120" alt="man">
-        </div>
-        <div class="col-md-7">
-          <p class="mt-5">There are many variations of passages of Lorem Ipsum available, but the
-            majority have suffered alteration in some form, by injected humour, 
-           or randomised words which don't look even slightly believable.</p>
-        </div>
+        <div class="row text-center">
+          <div class="col-sm-12 d-flex justify-content-center">
+            <div class="pb-5">
+              <img src="img/Photos/Man.png" width="120" height="120" alt="man">
+            </div>
+            <div>
+              <p class="lead t__text">There are many variations of passages of Lorem Ipsum available, but the <br>
+                majority have suffered alteration in some form, by injected humour, <br>
+               or randomised words which don't look even slightly believable.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -215,50 +217,58 @@
    <section id="footer__section">
      <div class="container">
        <div class="row text-white">
-         <div class="col-md-3">
-           <div class="text1">
-             <p>Millions of people of all ages and from around
+         <div class="col-md-5">
+             <p class="lead foo__text">Millions of people of all ages and from around <br>
               the world are improving their lives with us</p>
+         </div>
+         <div class="col-md-2">
+           <div class="course">
+            <p class="Bold h6 lh-2">Course</p>
+              <p class="lh-2">Graphic Design</p>
+              <p class="lh-2">Web Design</p>
+              <p class="lh-2">Business</p>
+              <p class="lh-2">Marketing</p>
+              <p class="lh-2">Engineering</p>
+            </div>
+          
+         </div>
+         <div class="col-md-2 text-center">
+           <p class="Bold h6 lh-2">Terms</p>
+           <div class="terms text-center">
+            <p> Graphic Design </p>
+            <p>  Web Design </p>
+            <p> Business </p>
+            <p> Marketing </p>
+            <p>  Engineering </p>
            </div>
-         </div>
-         <div class="col-md-3">
-           <p>Course
-            Graphic Design
-            Web Design
-            Business
-            Marketing
-            Engineering</p>
-         </div>
-         <div class="col-md-3">
-           <p>Terms
-            Graphic Design
-            Web Design
-            Business
-            Marketing
-            Engineering</p>
+          
          </div>
          <div class="col-md-3">
            <div class="useful__link">
-           <h6>Useful Link </h6>
-           <ul>
-             <li>
-               <a href="#">Graphic Design</a>
+           <h6 class="text-center">Useful Link </h6>
+           <div class="useful__link">
+            <ul>
+              <li>
+                <a href="#">Graphic Design</a>
+              </li>
+              <li>
+               <a href="#">Web Design</a>
              </li>
              <li>
-              <a href="#">Web Design</a>
-            </li>
-            <li>
-              <a href="#">Business</a>
-            </li>
-            <li>
-              <a href="#">Marketing</a>
-            </li>
-            <li>
-              <a href="#">Engineering</a>
-            </li>
-           </ul>
+               <a href="#">Business</a>
+             </li>
+             <li>
+               <a href="#">Marketing</a>
+             </li>
+             <li>
+               <a href="#">Engineering</a>
+             </li>
+            </ul>
+           </div>
+        
           </div>
          </div>
+         <p class="text-muted mt-3 text-center pt-1">Copyright © 2021 by Ariful Islam</p>
        </div>
      </div>
    </section>
