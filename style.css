@@ -79,15 +79,34 @@ line-height: 70px;
 }
 
 
-.middle__text {
+.middle__text h1{
+    position: relative;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-bottom: 50px;
+    font-family: Poppins;
+    font-weight: 700;
+    color: #413960;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    font-size: 34px;
 }
-
+.middle__text h1::before {
+    content: '';
+    width: 80px;
+    height: 3px;
+    background: #f91942;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
 .portfolio p {
  margin-top: -14px;
+}
+.card {
+    margin-top: 50px;
 }
 .card__item {
     background-color: #fff;
@@ -99,8 +118,6 @@ line-height: 70px;
     text-align: center;
     padding: 50px 50px;
     background-color: #f0fff0;
-   
-   
 }
 .box:hover {
     background-color: #fff;
@@ -117,6 +134,30 @@ border-radius: 10px;
 }
 
 /* Start Testimonials */
+.testimonial__middle__text h1 {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Poppins;
+    font-weight: 700;
+    color: #413960;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    font-size: 34px;
+}
+.testimonial__middle__text h1::before {
+    content: '';
+    width: 80px;
+    height: 3px;
+    background: #f91942;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
 .t__text {
     font-size: 16px;
     text-align: left;
@@ -141,25 +182,47 @@ border-radius: 10px;
     font-size: 16px;
     line-height: 30px;
 }
-.course p {
-    line-height: 16px;
-}
+
 .useful__link ul{
     list-style: none;
 }
 .useful__link ul li a {
     text-decoration: none;
     color: #fff;
+    font-size: 16px;
+    line-height: 13px;
+    font-weight: 400;
 }
-.useful__link {
-    text-align: center;
+.terms {
+    color: #fff;
+    line-height: 18px;
 }
-.course__list li {
-    list-style: none;
+.course {
+    color: #fff;
+    line-height: 18px;
+}
+.useful {
+    color: #fff;
+    line-height: 18px;
 }
 
-li a {
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-}
+/* Responsive Design */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { 
+    .text__content {
+        text-align: center;
+    }
+
+    .text__content h1 {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+
+    .card {
+        text-align: center;
+    }
+    .man {
+        width: 100%;
+        margin-left: 20px;
+        align-items: center;
+    }
+ }
